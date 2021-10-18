@@ -1,0 +1,47 @@
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    align-items: center;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 99vw;
+  }
+  
+  .animation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    animation-name: cars;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  .animation {
+    height: 450px;
+    width: 450px;
+    display: flex;
+  }
+  
+  /* ANIMATION STYLING: */
+
+  @keyframes cars{
+      from{
+          
+          position: relative;
+      }
+      to{
+        position: absolute;
+      }
+
+  }
+     
