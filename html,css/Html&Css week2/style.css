@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 600vh;
+}
+
+.nav-child{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 5vh;
+    background: pink;  
+    padding-top: 12px;  
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;    
+}
+.party-on{
+    height: 5vh;
+    background: gold; 
+}
+.party-p{
+    padding-top: 12px;
+}
+
+.the-heart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 30vh;
+    padding-left: 200px;
+    font-size: 40px;
+    background-color: beige;
+}
+
+.five-boxs{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-auto-rows: minmax(auto);
+    gap:10px;
+    margin: 10em;
+    color: aliceblue;
+    letter-spacing: 0.2px;
+}
+.one{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(61, 61, 8);
+   
+}
+.two{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(22, 22, 4);
+}
+.three{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(9, 51, 51);
+}
+.four{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(53, 14, 14);
+}
+.five{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(133, 133, 91);
+    
+}
+.popular-articles{
+    height: 40vh;
+    background: lightgray;
+    margin-top: 5em;
+}
+.texts-in-popular{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    padding-top: 10%;
+    padding-right: 3%;
+    padding-left: 3%; 
+    font-size: 20px;
+}
+.head-popular{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+span{
+    color: rgb(184, 7, 125);
+    font-size: 30px;
+}
+.story{
+    margin: 5em;
+    font-size: 24px;
+}
+.latest-stories{
+    height: 80vh;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 1.5em;
+    grid-auto-rows: minmax(200px, auto);
+    margin: 15em;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#sp{
+    color:rgb(59, 57, 57);
+    font-size: 15px;
+    padding-top: 0.9em;
+}
+.stories-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(18, 90, 57);
+}
+.stories-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(77, 26, 72);
+}
+.stories-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(126, 143, 31);
+}
+.stories-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(126, 143, 31);
+}
+.stories-five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(126, 143, 31);
+}
+.stories-six{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(126, 143, 31);
+}
+.stories-seven{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(7, 93, 114);
+}
+.stories-eight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    background: rgb(121, 76, 17);  
+}
+.chan{
+    margin: 5em;
+    font-size: 24px;
+    background: lightgray;
+}
+.explore{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5em;
+    margin: 5em;
+}
+.exp-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: darkkhaki;
+    color: white;
+    
+}
+.exp-2{
+    background: rgb(28, 7, 145);
+    color: white;
+}
+.exp-3{
+    background: rgb(28, 7, 145);
+    color: white;
+}
+.exp-4{
+    background: rgb(28, 7, 145);
+    color: white;
+}
+.exp-5{
+    background: darkkhaki;
+    color: white;
+}
+.explore p:nth-child(2){
+    margin-top: 100px;
+}
+.email{
+    height: 40vh;
+    background: rgb(150, 18, 150);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.email h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;  
+}
+.email p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.what-we-made{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.watch{
+    height: 40vh;
+    background: rgb(92, 60, 60);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.reach{
+    margin: 50px;
+}
+.work-with{
+    height:45vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10em;
+    justify-content: center;
+    margin: 5em;
+}
+.media{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(80px);  
+    gap: 3em;
+    padding-left: 10em; 
+    letter-spacing: 0.4em;
+}
+.us p:nth-child(2){
+    margin: 2em;
+}
+.bottom{
+    height: 50vh;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.btm-top1{
+    font-size: 40px;
+}
+.btm-top2{
+    font-size: 18px;  
+}
+.btm-top3{
+    font-size: 18px;
+}
+.line{
+    height: 1px;
+    background: rgb(240, 245, 232);
+}
+.btm-btm{
+    height:16vh;
+    background: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1px;    
+}
+.btm-top3 > p{
+    color: aqua; 
+    margin-top: 2px; 
+}
+.btm-top2 > p{
+    color: aqua;  
+    margin-top: 2px;
+}
