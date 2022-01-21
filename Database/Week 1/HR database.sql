@@ -4,6 +4,9 @@ LIMIT 0, 1000
 
 -- Date: 2022-01-19 11:05
 */
+CREATE DATABASE `sql_hr`
+CREATE TABLE 'employees'
+
 INSERT INTO `` (`employee_id`,`first_name`,`last_name`,`job_title`,`salary`,`reports_to`,`office_id`) VALUES (33391,'D\'arcy','Nortunen','Account Executive',62871,37270,1);
 INSERT INTO `` (`employee_id`,`first_name`,`last_name`,`job_title`,`salary`,`reports_to`,`office_id`) VALUES (37270,'Yovonnda','Magrannell','Executive Secretary',63996,NULL,10);
 INSERT INTO `` (`employee_id`,`first_name`,`last_name`,`job_title`,`salary`,`reports_to`,`office_id`) VALUES (37851,'Sayer','Matterson','Statistician III',98926,37270,1);
