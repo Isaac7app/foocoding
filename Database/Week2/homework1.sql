@@ -14,4 +14,16 @@ countrylanguage.CountryCode = country.code where Region = ?';
 set @a = 'Western Africa';
 execute lang using @a;
 
---3. Find the number of cities in which language Z is spoken (Accept Z from user)
+-- 3. Find the number of cities in which language Z is spoken (Accept Z from user)
+
+ prepare numberofcities from 'select count(city.name) as number_of_cities from city inner join country 
+on city.countryCode = country.Code inner join countrylanguage on 
+countrylanguage.countryCode = country.code where Language = ?';
+
+set @a = 'French';
+execute numberofcities using @a;
+
+-- 4. .List all the continents with the number of languages spoken in each continent
+
+select Continent, count(1) as total_language_spoken from country inner join countrylanguage on 
+countrylanguage.CountryCode = country.code group by Continent;
