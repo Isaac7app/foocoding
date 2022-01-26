@@ -1,6 +1,13 @@
 // Question 2
 CREATE DATABASE IF NOT EXITS todo;
 
+CREATE TABLE IF NOT EXITS user (
+    userid INTEGER PRIMARY KEY,
+    name varchar(55), 
+    minutes INTEGER
+    );
+    
+
 CREATE TABLE IF NOT EXITS todo_list1 (id INTEGER PRIMARY KEY, activity TEXT, minutes INTEGER);
 INSERT INTO todo_list VALUES (1, "Wash the dishes", 15);
 INSERT INTO todo_list VALUES (2, "vacuuming", 20);
