@@ -3,7 +3,7 @@ import Hello from './Hello';
 
 function App() {
   return (
-    <Hello title={'Reminder App'} />
+    <Hello title={'Playing Around'} />
   );
 }
 
